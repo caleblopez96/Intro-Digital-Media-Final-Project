@@ -1,0 +1,239 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #FFF3E0;
+    overflow-x: hidden;
+}
+
+#topNav {
+    height: 6em;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: .35em;
+}
+
+ul {
+    background-color: #6E2C00;
+    opacity: .9;
+    height: 6.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 1em;
+}
+
+li:first-child {
+    margin-right: auto;
+}
+
+.logo {
+    height: 100px;
+    width: 125px;
+}
+
+a {
+    text-decoration: none;
+    color: #F8F9F9;
+}
+
+a:visited {
+    color: #F8F9F9;
+}
+
+a:hover {
+    color: black;
+    font-size: 1.1em;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.banner {
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/Caleb_Lopez_Banner_Webpage_adobe_express.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+
+.mainHeader {
+    color: #F8F9F9;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    text-shadow: 2px 5px black;
+    padding-top: .25em;
+    font-size: 7em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 4.5em;
+}
+
+button {
+    align-items: center;
+    appearance: none;
+    background-color: #ff793b;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #ff793b;
+}
+
+button:first-child {
+    background-color: #1B5E20;
+}
+
+button:first-child:hover {
+    background-color: #ffffff;
+    color: #1B5E20;
+}
+
+button:nth-child(2) {
+    background-color: #689F38;
+}
+
+button:nth-child(2):hover {
+    background-color: #ffffff;
+    color: #689F38;
+}
+
+.sectionContainer {
+    width: 90%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0 auto;
+}
+
+.sectionContainer h1 {
+    background-color: #6E2C00;
+    text-align: center;
+    margin-bottom: .75em;
+    height: 10%;
+    font-size: 2.25em;
+    font-family: 'Lato', sans-serif;
+    opacity: .85;
+}
+
+.mainBodyImage {
+    height: 100%;
+    width: 682px;
+}
+
+p {
+    font-size: 1.5em;
+    padding: .5em .5em 0 .5em;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: .5em .5em 0 .5em;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+h2 {
+background-color: #6E2C00;
+text-align: center;
+margin-bottom: .75em;
+height: 10%;
+font-size: 2.25em;
+font-family: 'Lato', sans-serif;
+opacity: .85;
+}
+
+.articleOne {
+    background-color: #689F38;
+}
+
+.articleTwo {
+    background-color: #ff793b;
+}
+
+.mainBodyButtonOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    margin: 1em auto;
+}
+
+.mainBodyButtonOne:hover {
+    background-color: white;
+    color: black;
+}
+
+.mainBodyButtonTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    margin: 2em auto;
+}
+
+.mainBodyButtonTwo:hover {
+    background-color: white;
+    color: black;
+}
+
+.videoSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+
+.myVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
